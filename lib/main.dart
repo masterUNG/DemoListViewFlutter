@@ -34,11 +34,11 @@ class _MyAppState extends State<MyApp> {
           ),
           body: new ListView(
             children: <Widget>[
+              new Image.asset(imageStrings[0]),
               new Image.asset(imageStrings[1]),
               new Image.asset(imageStrings[2]),
-              new Image.asset(imageStrings[0]),
-              new Image.asset(imageStrings[0]),
-              new Image.asset(imageStrings[0]),
+              new Image.asset(imageStrings[3]),
+              new Image.asset(imageStrings[4]),
             ],
           )),
     );
